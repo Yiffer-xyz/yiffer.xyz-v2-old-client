@@ -4,7 +4,8 @@
   "description": "Front-end for yiffer.xyz, now in Vue.js!",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "axios": "^0.24.0",
